@@ -41,3 +41,18 @@ body{
     border-bottom-width: 2px;
     margin-bottom: 10px;
 }
+
+.content-center button{
+    background-color: rgb(180, 76, 76);
+    color: #FFF;
+}
+
+.content-center button:hover{
+    background: rgb(170, 53, 53);
+    cursor: pointer;
+}
+
+.content-center button:active{
+    background: rgb(241, 76, 76);
+    cursor: pointer;
+}
