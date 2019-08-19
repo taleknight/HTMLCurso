@@ -53,6 +53,6 @@ body{
 }
 
 .content-center button:active{
-    background: rgb(241, 76, 76);
+    background: rgb(200, 53, 53);
     cursor: pointer;
 }
