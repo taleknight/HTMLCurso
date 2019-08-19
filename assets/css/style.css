@@ -1,0 +1,18 @@
+body{
+    background-color: #F2F2F2;
+}
+
+.content-center{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-center .text-center{
+    text-align: center;
+}
+
+.content-center img{
+    width: 70%;
+}
