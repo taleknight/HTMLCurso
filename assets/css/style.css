@@ -1,9 +1,10 @@
+background-color: #F2F2F2;
 *{
     box-sizing: border-box;
 }
 
 body{
-    background-color: #F2F2F2;
+    background-image: url("../images/summoners war/capa - arcanjo vs quimera.jpg")
 }
 
 .content-center{
