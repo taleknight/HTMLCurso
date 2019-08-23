@@ -34,13 +34,16 @@ document.querySelector('#form-login').addEventListener('submit', e =>{
     let email = document.querySelector('#email').value;
     let password = document.querySelector('#password').value;
     
-    console.log('Seu E-mail:',email,'Sua senha:',password);
+    /*console.log('Seu E-mail:',email,'Sua senha:',password); SE FAZ DESNECESSARIO A PARTIR DE QUE TEM UM 'JSON' ABAIXO */
 
     let json ={
         email,
         password
     };
+
     console.log(json);
 
+    let stringJSON = JSON.stringify(json);
+    console.log(stringJSON);
 
 });
