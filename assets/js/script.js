@@ -46,4 +46,8 @@ document.querySelector('#form-login').addEventListener('submit', e =>{
     let stringJSON = JSON.stringify(json);
     console.log(stringJSON);
 
+    let jsonParse = JSON.parse(stringJSON);
+
 });
+
+/* 8:04 aula 23. Trabalhando com JSON.mp4*/
