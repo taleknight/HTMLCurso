@@ -1,0 +1,77 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color: rgba(24, 18, 18, 0.788);*/
+    /*background-image: url("../images/summoners war/homunculo.jpg");*/
+    background-image: url("../images/aleatorio/battlefield.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: fixed;
+}
+
+/*.content-center{
+    width: 100%;
+    max-width: 300px;
+    margin: 10%;
+    margin-top: 12.5%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 15px;
+}*/
+
+.content-center .text-center{
+    text-align: center;
+}
+
+.content-center img{
+    width: 70%;
+}
+
+.content-center form{
+    margin: 20px;
+}
+
+.content-center input,
+.content-center button{
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.content-center input{
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+    border-bottom-color: rgb(180, 76, 76);
+    border-radius: 7.5em 5em;
+    
+}
+
+/*.content-center input:focus{
+    border-bottom-color: rgb(180, 76, 76);
+    border-radius: 7.5em 5em;
+}*/
+
+.content-center button{
+    background-color: rgb(180, 76, 76);
+    color: #FFF;
+    border-radius: 5em;
+    margin-top: 10px;
+    margin-bottom: -100%;
+}
+
+.content-center button:hover{
+    background: rgb(170, 53, 53);
+    cursor: pointer;
+}
+
+.content-center button:active{
+    background: rgb(200, 53, 53);
+    cursor: pointer;
+}
