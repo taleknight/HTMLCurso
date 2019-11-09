@@ -27,7 +27,7 @@ document.querySelector('#form-login').addEventListener('mmouseleave', e =>{
 
 document.querySelector('#form-login').addEventListener('submit', e =>{
 
-    /*e.preventDefault();*/
+    e.preventDefault();
 
     console.log('Formulário enviado! Aqui vai o Ajax.');
     
@@ -41,13 +41,31 @@ document.querySelector('#form-login').addEventListener('submit', e =>{
         password
     };
 
-    console.log(json);
+    if(!json.email){
+        
+        console.error("O campo e-mail deve ser preenchido")
 
-    let stringJSON = JSON.stringify(json);
+        // if(json.email=="reinaldo@hotmail.com" && json.password=="reinaldo"){
+        //     console.log(json,"Correto");
+        // }else{
+        //     console.log(json,"Incorreto");
+
+    }else if(!json.email){
+        
+        console.error("O campo password deve ser preenchido!")
+    
+    }else{
+
+        console.info("Dados validados com sucesso!")
+    }
+
+    // console.log(json);
+
+    /*let stringJSON = JSON.stringify(json);
     console.log(stringJSON);
 
     let jsonParse = JSON.parse(stringJSON);
-
+    */
 });
 
 /* 8:04 aula 23. Trabalhando com JSON.mp4*/
