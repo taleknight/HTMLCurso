@@ -127,8 +127,19 @@ body{
 .todo li.complete {
     text-decoration: line-through;
     color: #999;
-    cursor: not-allowed;    
+    /*cursor: not-allowed;  deixe não clicavel o li, onde tiver um "complete" */ 
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
 }
 
 
-/* AULA 31 (TRABALHANDO COM ARRAY), vou começar está aula ainda */
+.todo button{
+    padding: initial;
+    width:initial;
+    color: #FFF;
+    float: right;
+    min-width: 28px;
+}
