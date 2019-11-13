@@ -1,5 +1,6 @@
 let data = [];
 
+
 function renderTodo() {
 
     document.querySelector('.todo').innerHTML = '';
@@ -25,7 +26,20 @@ function renderTodo() {
 
         li.querySelector('button').addEventListener('click', e => {
 
-            console.warning("Você vai deletar este item ?");
+
+            let button = e.target;
+            let li = button.parentNode;
+            let input = li.querySelector('input');
+            let id = input.id;
+            let idArray = id.split('-');
+            let todoID = idArray[1];
+            let title = li.querySelector('label').innerText;
+            if(confirm(`Realmente finalizou está tarefa (${title})?`)){
+                data = data.filter(task => task.id !== parseInt(todoID));
+                renderTodo();
+            }
+            
+
         })
 
         document.querySelector('.todo').append(li);
