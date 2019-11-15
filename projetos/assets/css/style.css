@@ -14,6 +14,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    position: relative;
 }
 
 header .bg-gradient {
@@ -60,3 +61,51 @@ header #menu a {
     font-weight: bold;
     padding: 20px;
 }
+
+#register {
+    background: #FFF;
+    width: 100%;
+    height: 400px;
+    max-width: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 10vw;
+    box-shadow: 0 0 2.1875rem rgba(140,152,164,.125);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem ;
+    padding: 20px;
+    color: #333;
+}
+
+#register p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+#register .field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#register input {
+    width: 100%;
+    padding: .75rem 1rem;
+    border-radius: 4px;
+    border: #CCC 1px solid;
+}
+
+#register input[type=radio] {
+    width: 25px;
+}
+
+#register button {
+    width: 100%;
+    border: none;
+    background-color: #E67E22;
+    color: #FFF;
+    padding: .75em;
+    font-size: 1.2em;
+}
+
+ 
